@@ -24,8 +24,8 @@ def expo(base, power):
         return 1 / result
 
 
-
 if __name__ == "__main__":
-    base = int(input())
-    power = int(input())
-    result = expo(base, power)
+    num = int(input())
+    to = int(input())
+    res = expo(num, to)
+    print(res)
